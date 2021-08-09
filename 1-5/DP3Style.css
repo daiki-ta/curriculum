@@ -1,0 +1,87 @@
+* {  /* リセットcss */
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {   /* 共通の設定 */
+    width: 400px;
+    margin: 0 auto;
+}
+
+.clearfix::after {  /* clearfix */
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+li {
+    list-style: none;
+}
+
+.header ul {
+    float: right;
+    /* height: 60px;
+    width: 160px; */
+    padding: 20px; 
+    
+}
+
+.header li {
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    float: left;
+    border-top: solid 10px white;
+    border-bottom: solid 10px white;
+    border-right: solid 10px white;
+}
+
+.header li:first-child {
+    border-left: solid 10px white;
+}
+
+
+.left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right {
+    height: 250px;
+    width: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+
+.right ul {
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+
+}
+
+.right li {
+    height: 50px;
+    width: 150px; 
+    background-color: #ff863f;
+    border: solid 5px white;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.right li:first-child {
+    margin-top: 0;
+}
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}

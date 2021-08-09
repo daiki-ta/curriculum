@@ -1,0 +1,48 @@
+@media screen and (max-width: 479px) {
+    #wrapper {   /* 共通の設定 */
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 200px;
+    }
+
+    .header ul {
+        float: none;
+        padding: 20px 70px; 
+        
+    }
+
+    .header li {
+        float: none;
+        border-top: none;
+        border-left: solid 10px white;
+    }
+
+    .header li:first-child {
+        border-top: solid 10px white;
+    }
+
+    .left {
+        height: 100px;
+        width: 200px;
+    }
+
+    .right {
+        height: 200px;
+        width: 200px;
+        background-color: #8c2727;
+        float: right;
+    }
+
+    .right ul {
+        padding: 20px 30px;
+    
+    }
+
+    .right li {
+        width: 140px; 
+        margin-top: 5px;
+    }
+}
