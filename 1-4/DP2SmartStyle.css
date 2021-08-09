@@ -1,0 +1,69 @@
+/* ウィンドウ幅が最大767pxまでの場合に適用 */
+@media screen and (max-width: 767px) {
+    #wrapper {   /* 共通の設定 */
+        width: 300px;
+    }
+
+    .left {
+        width: 100px;
+    }
+
+    .box-1 {
+        width: 75px;
+    }
+
+    .box-2 {
+        width: 125px;
+    }
+
+    .box-3 {
+        width: 125px;
+    }
+
+    .box-4 {
+        width: 200px;
+    }
+}
+
+/* ウィンドウ幅が最大479pxまでの場合に適用 */
+@media screen and (max-width: 479px) {
+    #wrapper {   /* 共通の設定 */
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .left {
+        height: 100px;
+        width: 150px;
+        float: none;
+    }
+    
+    .right {
+        width: 150px;
+        float: none;
+    }
+
+    .box-1 {
+        height: 100px;
+        width: 150px;
+        float: none;
+    }
+    
+    .box-2 {
+        height: 50px;
+        width: 150px;
+        float: none;
+    }
+    
+    .box-3 {
+        height: 100px;
+        width: 150px;
+        float: none;
+    }
+    
+    .box-4 {
+        height: 100px;
+        width: 150px;
+        float: none;
+    }
+}
